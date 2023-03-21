@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #413F42;
+}
+
+p {
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+a:hover{
+  color: grey;
+}
+
+.bg-img {
+  position: relative;
+  width: 100%;
+}
+
+.name {
+  font-family: 'Allison', cursive;
+  color: white;
+  font-size: 120px;
+  ;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 8%;
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: #989DA6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.top-texts {
+  font-weight: 200;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+
+.bio {
+  color: white;
+  margin-top: 0px;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 20%;
+}
+
+.hello {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+.about-description {
+  width: 35%;
+  margin: auto;
+}
+
+.skills {
+  font-size: 60px;
+  color: black;
+}
+
+.skill-web-dev {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.web-dev-des {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.web-dev-icon {
+  float: left;
+  margin-left: 100px;
+  margin-right: 20px;
+  width: 13%;
+}
+
+.skill-graphic-design {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+}
+
+.graphic-design-des {
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 100px;
+}
+
+.graphic-design-icon {
+  float: right;
+  margin-left: 20px;
+  margin-right: 100px;
+  width: 13%;
+}
+
+.mid-3 {
+  display: block;
+  text-align: center;
+}
+
+.contact-us {
+  width: 35%;
+  margin: 30px auto 25px auto;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #081f2d;
+  border-radius: 0px;
+  border: 1px solid #081F2D;
+  color: white;
+  font-size: 15px;
+  padding: 10px 45px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #081F2D;
+  border-color: #081F2D;
+  transition: 0.3s;
+}
+.footer{
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+.links{
+  color: white;
+}
+.tnc{
+  margin-top: 30px;
+  color: white;
+}
+
+.cc{
+  margin-top: 0px;
+  color: white;
+
+}
