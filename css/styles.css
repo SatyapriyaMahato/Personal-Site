@@ -7,6 +7,7 @@ body {
 
 p {
   line-height: 2;
+  
 }
 a{
   text-decoration: none;
@@ -25,8 +26,7 @@ a:hover{
 .name {
   font-family: 'Allison', cursive;
   color: white;
-  font-size: 120px;
-  ;
+  font-size: 6rem;
   font-weight: 400;
   margin-top: 100px;
   margin-bottom: 0;
@@ -40,14 +40,20 @@ hr {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.top{
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 .top-texts {
-  font-weight: 200;
-  left: 0;
-  position: absolute;
   text-align: center;
-  top: 150px;
-  width: 100%;
+  
 }
 
 .bio {
@@ -82,16 +88,18 @@ hr {
 }
 
 .skill-web-dev {
-  text-align: left;
+  text-align: justify;
   margin-top: 50px;
   margin-bottom: 0px;
 }
 
 .web-dev-des {
-  text-align: left;
+  text-align: justify;
   font-size: 1rem;
   margin-bottom: 100px;
   margin-right: 100px;
+  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .web-dev-icon {
@@ -109,9 +117,12 @@ hr {
 }
 
 .graphic-design-des {
-  text-align: left;
+  text-align: justify;
   font-size: 1rem;
   margin-left: 100px;
+  padding-right: 100px;
+  
+  
 }
 
 .graphic-design-icon {
