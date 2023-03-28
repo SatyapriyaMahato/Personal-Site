@@ -7,6 +7,7 @@ body {
 
 p {
   line-height: 2;
+  font-size: 1rem;
   
 }
 a{
@@ -78,7 +79,7 @@ hr {
 }
 
 .about-description {
-  width: 35%;
+  width: 45%;
   margin: auto;
 }
 
@@ -138,7 +139,7 @@ hr {
 }
 
 .contact-us {
-  width: 35%;
+  width: 45%;
   margin: 30px auto 25px auto;
 }
 
